@@ -1,0 +1,28 @@
+[project]
+name = "sys-monitor-db"
+version = "0.1.0"
+description = "A system resource monitoring and recording application with a database backend."
+authors = [
+    {name = "Andrei Satsevich",email = "andrei@satsevich.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+package-mode = false
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "psutil (>=6.1.1,<7.0.0)",
+    "customtkinter (>=5.2.2,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.6"
+
+
+[tool.poetry.group.build.dependencies]
+pyinstaller = "^6.11.1"
+
