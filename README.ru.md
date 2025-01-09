@@ -5,6 +5,7 @@
         <img width="690" src=".github/interface_ru.png" alt="Системный монитор">
     </picture>
 </h1>
+
 RU | [EN](README.md)
 
 ## Описание

@@ -5,6 +5,7 @@
         <img width="690" src=".github/interface_en.png" alt="System Monitor">
     </picture>
 </h1>
+
 [RU](README.ru.md) | EN
 
 ## Description
